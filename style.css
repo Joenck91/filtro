@@ -1,0 +1,91 @@
+@font-face {
+    font-family:'titulo' ;
+    src: url("font.ttf") format("truetype");
+    font-weight:bolder;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'titulo';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+main{
+    display: flex;
+    position: relative;
+    flex-direction:column;
+    align-items: center;
+}
+h1 {
+   color: rgb(169, 26, 26);
+    font-family:'titulo';
+    font-size: 59px;
+    margin-bottom: -8px;
+}
+h2{
+  padding-bottom: 8px; 
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.video {
+    border-radius: 12px;
+    height: 400px;
+}
+.textocopy{
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filtro {
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copy1{
+    font-weight:bolder;
+}
+.cta1{
+    font-style: oblique;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "TITULO";
+}
+img{
+    width: 250px;
+    border-radius: 12px;
+}
+.towhatsapp {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textowhatsapp{
+    font-family: "titulo";
+    font-size:x-large;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.botao {
+    background-color: rgb(80, 231, 98);
+    padding: 15px;
+    border-radius: 10px;
+    font-family:'Gill Sans MT';
+    font-size: large;
+}
